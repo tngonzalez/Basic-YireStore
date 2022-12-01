@@ -1,0 +1,115 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.tienda img
+{
+    width: 100%;
+    height: 500px;
+}
+.historia h3
+{
+    color: #8b3c22;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
+}
+.historia p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.historia .lema
+{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-style: italic;
+    height: 10px;
+    margin: 10px;
+}
+.historia ul li
+{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+.videotienda
+{
+  text-align: center;
+  background-color: #8b3c22;
+
+  border-color: #eacabd;
+  border-width: 9px;
+  border-style: outset;
+}
+.videotienda video
+{
+    margin: 10px 0;
+}
+
+  
+@media (max-width: 768px) 
+{
+/* Historia */
+    
+.tienda img
+{
+    width: 100%;
+    height: 200px;
+}
+.historia h3
+{
+
+    color: #8b3c22;
+    margin: 20px 0 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
+}
+.historia p
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+.historia .lema
+{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-style: italic;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.historia ul li
+{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.videotienda video
+{
+    margin: 10px 0;
+    width: 70%;
+    height: 300px;
+}
+
+
+}
+
+
+
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');

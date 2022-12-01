@@ -1,0 +1,110 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.datosAutor
+{
+    height: 370px;
+}
+.row .imagen img 
+{
+    width: 80%;
+    margin: 20px;
+    height: 300px;
+}
+.row
+{
+    margin: 50px 0;   
+}
+.info
+{
+    width: 50%;
+    margin: 20px 0;
+}
+
+.info h3
+{
+    color: #8b3c22;
+    margin: -5px 0;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.info p
+{
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 770px) 
+{
+    .datosAutor
+{
+    height: auto;
+}
+.row .imagen img 
+{
+    width: 80%;
+    height: 300px;
+}
+.row
+{
+    margin: 10px 0; 
+    text-align: center;  
+}
+.info
+{
+    width: 80%;
+    margin: 10px 20px;
+    text-align: center; 
+
+}
+
+.info h3
+{
+    color: #8b3c22;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: left
+}
+
+}
+
+@media (max-width: 380px) 
+{
+.row .imagen img 
+{
+    width: 90%;
+    height: 300px;
+}
+}
+
+@media (max-width: 330px) 
+{
+.row .imagen img 
+{
+    width: 90%;
+    height: 200px;
+}
+.info h3
+{
+    color: #8b3c22;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px
+}
+}
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
