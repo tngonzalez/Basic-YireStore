@@ -1,0 +1,102 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.row 
+{
+    margin: 20px 0;
+}
+#button
+{
+    background-color: #8b3c22;
+    color: #eacabd;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+/* Hover + font-size */
+.form-group input
+{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+
+}
+label.error {
+    color: red;
+    font-size: 20px;
+    display: block;
+    margin-top: 5px 0 0 0;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+input.error
+{
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red; 
+}
+.form-group select
+{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+
+}
+.form-group select:hover
+{
+    background-color: #eacabd;
+    color: #8b3c22;
+}
+.form-group input:hover
+{
+    background-color: #eacabd;
+    color: #8b3c22;
+}
+.form-group p
+{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b3c22;
+
+}
+
+@media only screen and (max-width: 900px)
+{
+    .form-group input
+{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.form-group select
+{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+button
+{
+    background-color: #8b3c22;
+    color: #eacabd;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.form-group p
+{
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #8b3c22;
+
+}
+
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
